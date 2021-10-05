@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Merkaartor
 Comment="An OpenStreetMap editor"
-Exec=merkaartor-james-carroll.merkaartor
+Exec=merkaartor
 Icon=${SNAP}/meta/gui/merkaartor.png
 Type=Application
 Terminal=false

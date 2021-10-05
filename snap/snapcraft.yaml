@@ -1,9 +1,9 @@
-name: merkaartor-james-carroll
+name: merkaartor
 base: core20
 version: '0.19.0'
 summary: An OpenStreetMap editor
 description: |
-  Merkaartor is an OpenStreetMap editor for Linux, macOS and Windows, distributed under the GNU General Public License. 
+  Merkaartor is an OpenStreetMap editor for Linux, macOS and Windows.
 
 grade: stable
 confinement: strict

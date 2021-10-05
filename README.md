@@ -1,6 +1,6 @@
 # Merkaartor snap
 
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/merkaartor-james-carroll)
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/merkaartor)
 
 Merkaartor is an app for editing OpenStreetMap data.
 
