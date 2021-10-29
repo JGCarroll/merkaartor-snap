@@ -20,7 +20,7 @@ parts:
       - -DGPSD=OFF
       - -DWEBENGINE=ON
       - -DEXTRA_TESTS=OFF
-      - -DCMAKE_RELEASE_TYPE=Release
+      - -DCMAKE_BUILD_TYPE=Release
     build-snaps:
       - cmake
     build-packages:
