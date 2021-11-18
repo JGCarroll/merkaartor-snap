@@ -14,7 +14,7 @@ parts:
   merkaartor:
     plugin: cmake
     source: https://github.com/openstreetmap/merkaartor.git
-    source-tag: 0.19.0
+    source-commit: 6d14ea62eb06a9edbe293a1a7f30cdc067f0a252 # 0.19.0
     cmake-parameters:
       - -DZBAR=ON
       - -DGPSD=OFF
