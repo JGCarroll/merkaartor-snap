@@ -33,7 +33,6 @@ parts:
       - libzbar-dev
       - libzbarqt-dev
     stage-packages:
-    stage-packages:
       - libaec0
       - libarmadillo9
       - libarpack2
