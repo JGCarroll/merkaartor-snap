@@ -73,17 +73,6 @@ parts:
     organize:
       usr/lib/*-linux-gnu/blas/*: usr/lib/
       usr/lib/*-linux-gnu/lapack/*: usr/lib/
-  cleanup:
-    plugin: nil
-    build-snaps:
-      - core18
-      - kde-frameworks-5-core18
-    override-prime: |
-      set -eux
-      for snap in "core20" "kde-frameworks-5-qt-5-15-3-core20"; do
-          cd "/snap/$snap/current" && find . -type f,l -exec rm -f "$SNAPCRAFT_PRIME/{}" \;
-      done
-    after: [merkaartor]
 
 layout:
   /usr/local/lib/merkaartor/plugins:
