@@ -25,7 +25,7 @@ parts:
       - cmake
     build-packages:
       - build-essential
-      - libgdal-dev 
+      - libgdal-dev
       - libproj-dev
       - libqt5svg5-dev
       - libexiv2-dev
@@ -76,7 +76,7 @@ parts:
 
 layout:
   /usr/local/lib/merkaartor/plugins:
-    symlink: $SNAP/usr/local/lib/merkaartor/plugins  
+    symlink: $SNAP/usr/local/lib/merkaartor/plugins
 
 apps:
   merkaartor:
