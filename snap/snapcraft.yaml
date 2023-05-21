@@ -1,5 +1,5 @@
 name: merkaartor
-base: core20
+base: core22
 version: '0.19.0'
 summary: An OpenStreetMap editor
 description: |
@@ -33,43 +33,46 @@ parts:
       - libzbar-dev
       - libzbarqt-dev
     stage-packages:
+      - libarmadillo10
+      - libhdf4-0-alt
+      - libgdal30
+      - libhdf4-0-alt
+      - libogdi4.1
       - libaec0
-      - libarmadillo9
       - libarpack2
-      - libcfitsio8
+      - libblas3
+      - libblosc1
+      - libcfitsio9
       - libcharls2
-      - libcurl3-gnutls
-      - libdap25
-      - libdapclient6v5
-      - libepsilon1
+      - libcurl4
+      - libde265-0
       - libfreexl1
       - libfyba0
-      - libgdal26
-      - libgeos-3.8.0
+      - libgeos3.10.2
       - libgeos-c1v5
       - libgeotiff5
       - libgfortran5
       - libgif7
-      - libhdf4-0-alt
-      - libhdf5-103
+      - libhdf5-103-1
+      - libhdf5-hl-100
+      - libheif1
       - libkmlbase1
       - libkmldom1
       - libkmlengine1
-      - libnetcdf15
-      - libnghttp2-14
-      - libogdi4.1
-      - libproj15
-      - libqhull7
+      - liblapack3
+      - libnetcdf19
+      - libodbcinst2
+      - libpoppler118
+      - libproj22
+      - libqhull-r8.0
       - libquadmath0
-      - librtmp1
+      - librttopo1
       - libspatialite7
-      - libssh-4
       - libsuperlu5
       - libsz2
       - liburiparser1
       - libxerces-c3.2
       - libzbar0
-      - odbcinst1debian2
     organize:
       usr/lib/*-linux-gnu/blas/*: usr/lib/
       usr/lib/*-linux-gnu/lapack/*: usr/lib/
