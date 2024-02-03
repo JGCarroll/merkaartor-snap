@@ -87,12 +87,7 @@ apps:
     plugs:
       - network
       - home
-      - x11
-      - wayland
-      - desktop
-      - desktop-legacy
       - unity7
-      - opengl
       - removable-media
       - network-manager-observe
       - cups-control
