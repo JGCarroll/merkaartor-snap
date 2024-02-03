@@ -90,7 +90,7 @@ apps:
       - unity7
       - removable-media
       - network-manager-observe
-      - cups-control
+      - cups
       - avahi-control
       - network-manager
     extensions: [kde-neon]
