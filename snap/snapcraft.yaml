@@ -73,7 +73,6 @@ parts:
       - liburiparser1
       - libxerces-c3.2
       - libzbar0
-      - libqoauth2-qt6-1
       - libprotobuf32
     organize:
       usr/lib/*-linux-gnu/blas/*: usr/lib/
