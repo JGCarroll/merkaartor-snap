@@ -62,7 +62,7 @@ parts:
       - liblapack3
       - libnetcdf19t64
       - libodbcinst2
-      - libpoppler147
+      - libpoppler134
       - libproj25
       - libqhull-r8.0
       - libquadmath0
