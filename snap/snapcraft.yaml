@@ -49,7 +49,7 @@ parts:
       - libfreexl1
       - libfyba0t64
       - libgeos-c1t64
-      - libgeos3.13.1
+      - libgeos3.12.1t64
       - libgeotiff5
       - libgfortran5
       - libgif7
