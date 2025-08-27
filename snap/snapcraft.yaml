@@ -77,7 +77,7 @@ parts:
       - libxerces-c3.2
       - libzbar0
       - libqoauth2
-      - libprotobuf32t64
+      - libprotobuf23
     organize:
       usr/lib/*-linux-gnu/blas/*: usr/lib/
       usr/lib/*-linux-gnu/lapack/*: usr/lib/
