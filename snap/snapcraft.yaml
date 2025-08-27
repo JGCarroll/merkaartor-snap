@@ -53,8 +53,8 @@ parts:
       - libgeotiff5
       - libgfortran5
       - libgif7
-      - libhdf5-310
-      - libhdf5-hl-310
+      - libhdf5-103-1t64
+      - libhdf5-hl-100t64
       - libheif1
       - libkmlbase1t64
       - libkmldom1t64
