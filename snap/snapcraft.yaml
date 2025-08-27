@@ -31,6 +31,7 @@ parts:
       - libproj-dev
       - libexiv2-dev
       - libzbar-dev
+      - libzbarqt-dev
       - libprotobuf-dev
       - protobuf-compiler
     stage-packages:
@@ -73,6 +74,7 @@ parts:
       - liburiparser1
       - libxerces-c3.2
       - libzbar0
+      - libzbarqt0t64
       - libprotobuf32
     organize:
       usr/lib/*-linux-gnu/blas/*: usr/lib/
