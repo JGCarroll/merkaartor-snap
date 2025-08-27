@@ -68,7 +68,7 @@ parts:
       - libquadmath0
       - librttopo1
       - libspatialite8t64
-      - libsuperlu7
+      - libsuperlu6
       - libsz2
       - liburiparser1
       - libxerces-c3.2
