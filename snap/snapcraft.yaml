@@ -60,7 +60,7 @@ parts:
       - libkmldom1t64
       - libkmlengine1t64
       - liblapack3
-      - libnetcdf22
+      - libnetcdf19t64
       - libodbcinst2
       - libpoppler147
       - libproj25
