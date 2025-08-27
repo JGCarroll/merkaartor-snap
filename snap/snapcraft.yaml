@@ -1,5 +1,5 @@
 name: merkaartor
-base: core22
+base: core24
 version: '0.20.0'
 summary: An OpenStreetMap editor
 description: |
@@ -21,63 +21,61 @@ parts:
       - -DWEBENGINE=ON
       - -DEXTRA_TESTS=OFF
       - -DCMAKE_BUILD_TYPE=Release
+      - -DQT_MAJOR_VERSION=6
+      - -DBUILD_WITH_QT6=ON
     build-snaps:
       - cmake
     build-packages:
       - build-essential
       - libgdal-dev
       - libproj-dev
-      - libqt5svg5-dev
       - libexiv2-dev
-      - libopengl-dev
       - libzbar-dev
       - libzbarqt-dev
-      - libqoauth-dev
       - libprotobuf-dev
       - protobuf-compiler
     stage-packages:
-      - libarmadillo10
+      - libarmadillo12
       - libhdf4-0-alt
-      - libgdal30
-      - libhdf4-0-alt
+      - libgdal34t64
       - libogdi4.1
       - libaec0
-      - libarpack2
+      - libarpack2t64
       - libblas3
       - libblosc1
-      - libcfitsio9
+      - libcfitsio10t64
       - libcharls2
-      - libcurl4
+      - libcurl4t64
       - libde265-0
       - libfreexl1
-      - libfyba0
-      - libgeos3.10.2
-      - libgeos-c1v5
+      - libfyba0t64
+      - libgeos-c1t64
+      - libgeos3.12.1t64
       - libgeotiff5
       - libgfortran5
       - libgif7
-      - libhdf5-103-1
-      - libhdf5-hl-100
+      - libhdf5-103-1t64
+      - libhdf5-hl-100t64
       - libheif1
-      - libkmlbase1
-      - libkmldom1
-      - libkmlengine1
+      - libkmlbase1t64
+      - libkmldom1t64
+      - libkmlengine1t64
       - liblapack3
-      - libnetcdf19
+      - libnetcdf19t64
       - libodbcinst2
-      - libpoppler118
-      - libproj22
+      - libpoppler134
+      - libproj25
       - libqhull-r8.0
       - libquadmath0
       - librttopo1
-      - libspatialite7
-      - libsuperlu5
+      - libspatialite8t64
+      - libsuperlu6
       - libsz2
       - liburiparser1
       - libxerces-c3.2
       - libzbar0
-      - libqoauth2
-      - libprotobuf23
+      - libzbarqt0t64
+      - libprotobuf32
     organize:
       usr/lib/*-linux-gnu/blas/*: usr/lib/
       usr/lib/*-linux-gnu/lapack/*: usr/lib/
