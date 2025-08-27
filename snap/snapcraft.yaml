@@ -1,6 +1,6 @@
 name: merkaartor
 base: core22
-version: '0.19.0'
+version: '0.20.0'
 summary: An OpenStreetMap editor
 description: |
   Merkaartor is an OpenStreetMap editor for Linux, macOS and Windows.
@@ -14,7 +14,7 @@ parts:
   merkaartor:
     plugin: cmake
     source: https://github.com/openstreetmap/merkaartor.git
-    source-commit: 6d14ea62eb06a9edbe293a1a7f30cdc067f0a252 # 0.19.0
+    source-commit: f55c5669b96bc5fa7ee309f3bd9145fb3c70d521 # 0.20.0
     cmake-parameters:
       - -DZBAR=ON
       - -DGPSD=OFF
@@ -32,6 +32,9 @@ parts:
       - libopengl-dev
       - libzbar-dev
       - libzbarqt-dev
+      - libqoauth-dev
+      - libprotobuf-dev
+      - protobuf-compiler
     stage-packages:
       - libarmadillo10
       - libhdf4-0-alt
@@ -73,6 +76,8 @@ parts:
       - liburiparser1
       - libxerces-c3.2
       - libzbar0
+      - libqoauth2
+      - libprotobuf23
     organize:
       usr/lib/*-linux-gnu/blas/*: usr/lib/
       usr/lib/*-linux-gnu/lapack/*: usr/lib/
